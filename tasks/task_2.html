@@ -4,8 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task_2</title>
+    <style>
+        body {
+            background-color: #eee;
+        }
+        ol {
+            list-style: none;
+            padding: 0 40px 0 40px;
+        }
+        li {
+            /* margin: 15px; */
+            padding: 10px;
+            background-color: #add8e6;
+            font-size: 20px;
+        }
+        li::before {
+            content: url(./src/task_2/1.png);
+            padding: 10px;
+            background-color: #add8e6;
+        }
+        li:hover {
+            cursor: pointer;
+        }
+        .point1:active {
+            counter-set: 1;
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>Мой Список Задач</h1>
+    <ol>
+        <li class="point1">Сходить в спортзал</li>
+        <li class="point2">Оплатить счета</li>
+        <li class="point3">Познакомиться с Джоном</li>
+        <li class="point4">Купить яйца</li>
+        <li class="point5">Прочитать книгу</li>
+        <li class="point6">Сделать лабораторные</li>
+        <li class="point7">Поужинать</li>
+        <li class="point8">Купить яблоки</li>
+        <li class="point9">Сломать карандаш</li>
+        <li class="point10">Покормить кошку</li>
+        <li class="point11">Написать письмо</li>
+        <li class="point12">Пробежать 1 км</li>
+    </ol>
 </body>
 </html>
