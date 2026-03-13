@@ -5,9 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>МузLove</title>
     <style>
-        * {
-
-        }
         body {
             margin: 0px;
             padding: 0px;
@@ -98,11 +95,12 @@
             border-radius: 25px;
             padding: 5px 0px;
         }
-        .footer_info {
-            display: flex;
-            justify-content: end;
+        footer div {
+            margin: auto 50px;
             color: #fff;
-            margin-right: 20px;
+            border: 1px solid #fff;
+            border-radius: 25px;
+            padding: 4px 10px;
         }
         footer div a {
             color: #fff;
@@ -110,16 +108,27 @@
         }
         footer {
             background-color: #333;
-            padding-top: 10px;
-            padding-bottom: 10px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            display: flex;
+            justify-content: center;
         }
         header {
             background-color: #333;
             padding-top: 10px;
             padding-bottom: 20px;
         }
+        footer div {
+            transition: all 0.2s ease;
+        }
         .push_to_basket:hover {
             background-color: #0f0;
+        }
+        .contacts:hover{
+            cursor: pointer;
+        }
+        .contacts:hover {
+            background-color: #0075fe;
         }
     </style>
 </head>
@@ -139,7 +148,7 @@
                     <a href="">Главная</a>
                 </li>
                 <li>
-                    <a href="">Каталог</a>
+                    <a href="./product.html">Каталог</a>
                 </li>
                 <li>
                     <a href="">О нас</a>
@@ -235,9 +244,11 @@
         </div>
     </main>
     <footer>
-        <div class="footer_info">&copy; 2026 ООО «Зеленоглазое такси»</div>
-        <div class="footer_info"><a href="tel:+70000000000">+7 (000) 000-00-00</a></div>
-        <div class="footer_info"><a href="https://vk.com/majaxiarst" target="_blank">VK</a></div>
+        <div class="contacts"><a href="https://web.telegram.org/" target="_blank">TG</a></div>
+        <div class="contacts"><a href="tel:+70000000000">+7 (000) 000-00-00</a></div>
+        <div>&copy; 2026 ООО «Зеленоглазое такси»</div>
+        <div class="contacts"><a href="mailto:i@muzlove.ru">i@muzlove.ru</a></div>
+        <div class="contacts"><a href="https://vk.com/majaxiarst" target="_blank">VK</a></div>
     </footer>
 </body>
 </html>
