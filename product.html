@@ -44,18 +44,7 @@
             color: #000;
         }
         h1 {
-            display: flex;
-            justify-content: center;
-        }
-        section {
-            display: flex;
-            justify-content: center;
-        }
-        article {
-            width: 250px;
-            margin: 5px;
-            border: 1px solid #333;
-            padding: 10px;
+            margin-left: 10px;
         }
         .lots {
             width: 250px;
@@ -87,6 +76,16 @@
         }
         .push_to_basket:hover {
             background-color: #0f0;
+        }
+        .img_main {
+            height: 612px;
+        }
+        .main {
+            display: flex;
+        }
+        .sub_img {
+            height: 150px;
+            margin: auto 10px;
         }
     </style>
 </head>
@@ -121,8 +120,28 @@
         </div>
     </header>
     <main>
-        <h1>Каталог</h1>
-        
+        <h1>Микшерный пульт 7-канальный</h1>
+        <section class="main">
+            <article>
+                <section class="foto_product">
+                    <article>
+                        <img src="./tasks/src/task_4/lot1.png" alt="img_sub_1" class="sub_img">
+                    </article>
+                    <article>
+                        <img src="https://basket-16.wbbasket.ru/vol2481/part248122/248122094/images/big/2.webp" alt="img_sub_2" class="sub_img">
+                    </article>
+                    <article>
+                        <img src="https://basket-16.wbbasket.ru/vol2481/part248122/248122094/images/big/3.webp" alt="img_sub_3" class="sub_img">
+                    </article>
+                    <article>
+                        <img src="https://basket-16.wbbasket.ru/vol2481/part248122/248122094/images/big/4.webp" alt="img_sub_4" class="sub_img">
+                    </article>
+                </section>
+            </article>
+            <article>
+                <img src="./tasks/src/task_4/lot1.png" alt="Lot_main" class="img_main">
+            </article>
+        </section>
     </main>
     <footer>
 
