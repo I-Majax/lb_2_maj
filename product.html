@@ -72,7 +72,9 @@
         }
         .price_basket {
             display: flex;
-            margin-bottom: 5px;
+            margin: 20px 10px 5px;
+            font-size: 34px;
+            
         }
         .push_to_basket:hover {
             background-color: #0f0;
@@ -86,6 +88,43 @@
         .sub_img {
             height: 150px;
             margin: auto 10px;
+        }
+        .product_info {
+            padding: 10px;
+            width: 600px;
+        }
+        footer div {
+            transition: all 0.2s ease;
+        }
+        .push_to_basket:hover {
+            background-color: #0f0;
+        }
+        .contacts:hover{
+            cursor: pointer;
+        }
+        .contacts:hover {
+            background-color: #0075fe;
+        }
+        footer div {
+            margin: auto 50px;
+            color: #fff;
+            border: 1px solid #fff;
+            border-radius: 25px;
+            padding: 4px 10px;
+        }
+        footer div a {
+            color: #fff;
+            text-decoration: none;
+        }
+        footer {
+            background-color: #333;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .price {
+            font-size: 34px;
         }
     </style>
 </head>
@@ -141,10 +180,36 @@
             <article>
                 <img src="./tasks/src/task_4/lot1.png" alt="Lot_main" class="img_main">
             </article>
+            <article>
+                <ul>
+                    <li>Модель - 001</li>
+                    <li>Гарантия - 6 мес.</li>
+                    <li>Питание - от сети</li>
+                    <li>Тип - аналоговый</li>
+                </ul>
+                <div class="product_info">
+                    Вы ищете идеальный микшерный пульт для вашего студийного оборудования? Наш микшерный пульт - это идеальное решение для ваших потребностей! 
+                    С его помощью вы сможете профессионально регулировать звуковые уровни и создавать уникальные звуковые композиции.
+                    Этот микшер пульт обеспечит вам гладкую и точную работу с каждым из подключаемых устройств, включая микрофоны. Благодаря высокому качеству звучания и удобному интерфейсу, 
+                    вам будет легко достичь желаемого звукового эффекта.Каждый микшер для микрофона, включенный в комплект, обладает высокой чувствительностью и минимальным уровнем помех, 
+                    что позволит вам записывать чистые и четкие звуковые дорожки. 
+                    Вы сможете легко переключаться между различными источниками звука и настраивать его по своему вкусу.
+                    Не упустите возможность обновить свое студийное оборудование с помощью нашего микшерного пульта! Приобретайте его прямо сейчас и создавайте неповторимую музыку 
+                    без ограничений!
+                </div>
+                <div class="price_basket">
+                    <span class="lot_price">5 790 &#8381;</span>
+                    <span class="push_to_basket"><a href="" class="lot_basket">Добавить в корзину</a></span>
+                </div>
+            </article>
         </section>
     </main>
     <footer>
-
+        <div class="contacts"><a href="https://web.telegram.org/" target="_blank">TG</a></div>
+        <div class="contacts"><a href="tel:+70000000000">+7 (000) 000-00-00</a></div>
+        <div>&copy; 2026 ООО «Зеленоглазое такси»</div>
+        <div class="contacts"><a href="mailto:i@muzlove.ru">i@muzlove.ru</a></div>
+        <div class="contacts"><a href="https://vk.com/majaxiarst" target="_blank">VK</a></div>
     </footer>
 </body>
 </html>
